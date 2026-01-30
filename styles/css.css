@@ -11,8 +11,9 @@ h2{
     font-size: 300%;
 }
 
-img{
+img.logo{
     border-radius: 19px;
+    display: block;
 }
 
 .header{
@@ -20,9 +21,19 @@ img{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 200px;
+  height:5%;
   color: white;
 }
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2%;
+}
+
+
 
 
 
@@ -37,25 +48,29 @@ img{
     justify-content: space-between;
     align-items: center;
     margin-top:0;
-    padding: 35px;
+    padding-right: 3%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    height: 555%;
 }
 
 .nav li{
     text-decoration: none;
     list-style-type: none;
-    margin-left: 0px;
+    margin-left: 5%;
 }
 
 .nav li a{
     color: white;
     text-decoration: none;
-    font-size: 150%;
+    font-size: 350%;
 }
 
 .nav li:hover{
-    font-size: 19px;
+    font-size: 115%;
+    transition: 0.3s;
 }
-
+     
 .quien-es{
     display: flex;
     flex-direction: row;
@@ -71,6 +86,11 @@ img{
     border-top: 1px solid #ccc;
     margin-top: 2rem;
 }
+
+* {
+    border: 1px solid red;
+}
+
 
 
 
