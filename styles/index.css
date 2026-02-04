@@ -1,0 +1,197 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 300%;
+    margin:45px;
+}
+
+img{
+    border-radius: 19px;
+}
+
+.header{
+    background-color: #11142f;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    /* contenedor del header */
+    color: white;
+}
+/* ----- NAVBAR ----- */
+.nav{
+    display: flex;                  /* layout horizontal */
+    justify-content: space-between; /* separa logo y menú */
+    align-items: center;            /* centra verticalmente */
+    padding: 10px 40px; /* top y bottom | izq y der */
+    margin: 0;
+}
+
+/* items del menú */
+.nav li{
+    list-style: none;               /* quita viñetas */
+    display: flex;          
+        /* permite alinear contenido */
+    border-radius: 10px;
+}
+
+/* enlaces del menú */
+.nav li a{
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 10px; 
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+}
+
+/* hover del menú */
+.nav li a:hover{
+    font-size: 2.2rem;
+    transition: all 0.2s ease-in-out;
+}
+
+/* ----- LOGO ----- */
+.logo{
+    display: flex;                  /* controla alineación */
+    align-items: center;            /* centra verticalmente */
+}
+
+.logo img{
+    height: 140px;                  /* tamaño del logo */
+    width: auto;                    /* mantiene proporción */
+}
+
+.hero {
+    position: relative; 
+    display: flex;    
+    flex-direction: column;  
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0vh;
+    
+    background-image: url("../Images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    overflow: hidden;
+}
+.hero_ul{
+    list-style: none;  
+    margin: 35px;
+    padding: 0;
+}
+
+.overlay {
+    position: absolute;            
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 0;
+}
+
+.titulo {
+    position: relative;        
+    z-index: 1;
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+    font-weight: 500;
+    margin: 0%;
+}
+
+.subtitulo {
+    color: white;
+    font-weight: 600;
+}
+
+
+/* ----- HEADER (contenedor principal) ----- */
+.header{
+    background-color: #11142f;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    /* contenedor del header */
+    color: white;
+}
+/* ----- NAVBAR ----- */
+.nav{
+    display: flex;                  /* layout horizontal */
+    justify-content: space-between; /* separa logo y menú */
+    align-items: center;            /* centra verticalmente */
+    padding: 10px 40px; /* top y bottom | izq y der */
+    margin: 0;
+}
+
+/* items del menú */
+.nav li{
+    list-style: none;               /* quita viñetas */
+    display: flex;          
+        /* permite alinear contenido */
+    border-radius: 10px;
+}
+
+/* enlaces del menú */
+.nav li a{
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 10px; 
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+}
+
+/* hover del menú */
+.nav li a:hover{
+    font-size: 2.2rem;
+    transition: all 0.2s ease-in-out;
+}
+
+/* ----- LOGO ----- */
+.logo{
+    display: flex;                  /* controla alineación */
+    align-items: center;            /* centra verticalmente */
+}
+
+.logo img{
+    height: 140px;                  /* tamaño del logo */
+    width: auto;                    /* mantiene proporción */
+}
+
+/* ----- SECCIÓN QUIÉN ES ----- */
+.quien-es{
+    display: flex;                  /* imagen y texto en fila */
+    flex-direction: row;
+    padding-left: 120px;
+    padding-right: 120px;
+    margin: 0;
+}
+
+.imagen_portada{
+    width: 50%;
+    margin-left: 45px;
+    float: right;
+}
+
+/* contenedor del texto */
+.textoConImagen{
+    padding: 10px;
+    display: flex;
+    text-align: justify;
+    font-size: 200%;
+    padding-top: 0px;
+}
+
+/* ----- FOOTER ----- */
+.footer{
+    border-top: 1px solid #ccc;
+    margin-top: 2rem;
+}
+
+
