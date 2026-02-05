@@ -66,3 +66,43 @@ img{
     height: 140px;                  /* tamaño del logo */
     width: auto;                    /* mantiene proporción */
 }
+
+
+
+/*-----------DATOS---------------*/
+
+.titulo{
+    color: #11142f;
+}
+.titulos{
+    color: #11142f;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+
+.datos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+td, th{
+    border: 2px solid #11142f;
+    padding: 10px;
+    font-size: 2rem;
+    padding : 10px;
+    text-align: left;
+
+}
+
+.datos{
+    font-size: 2.3rem;
+}
+
+
+
+
+
+/* ----- FOOTER ----- */
