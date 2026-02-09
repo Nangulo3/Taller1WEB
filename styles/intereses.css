@@ -1,68 +1,77 @@
-body{
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.titulo{
-    text-align: center;
-    font-size: 300%;
-    margin:45px;
+.titulo {
+  text-align: center;
+  font-size: 300%;
+  margin: 45px;
 }
 
-img{
-    border-radius: 19px;
+img {
+  border-radius: 19px;
 }
 
-.header{
-    background-color: #11142f;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin: 0;
-    /* contenedor del header */
-    color: white;
+.header {
+  background-color: #11142f;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  /* contenedor del header */
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.PaginaActiva {
+  text-decoration: underline;
+  text-decoration-color: #fdd72dd4; /* color del subrayado */
+  text-decoration-thickness: 3px; /* grosor */
 }
 /* ----- NAVBAR ----- */
-.nav{
-    display: flex;                  /* layout horizontal */
-    justify-content: space-between; /* separa logo y menú */
-    align-items: center;            /* centra verticalmente */
-    padding: 10px 40px; /* top y bottom | izq y der */
-    margin: 0;
+.nav {
+  display: flex; /* layout horizontal */
+  justify-content: space-between; /* separa logo y menú */
+  align-items: center; /* centra verticalmente */
+  padding: 10px 40px; /* top y bottom | izq y der */
+  margin: 0;
 }
 
 /* items del menú */
-.nav li{
-    list-style: none;               /* quita viñetas */
-    display: flex;          
-        /* permite alinear contenido */
-    border-radius: 10px;
+.nav li {
+  list-style: none; /* quita viñetas */
+  display: flex;
+  /* permite alinear contenido */
+  border-radius: 10px;
 }
 
 /* enlaces del menú */
-.nav li a{
-    color: white;
-    text-decoration: none;
-    font-size: 2rem;
-    padding: 10px; 
-    text-align: center;
-    transition: all 0.2s ease-in-out;
+.nav li a {
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 10px;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
 }
 
 /* hover del menú */
-.nav li a:hover{
-    font-size: 2.2rem;
-    transition: all 0.2s ease-in-out;
+.nav li a:hover {
+  font-size: 2.2rem;
+  transition: all 0.2s ease-in-out;
 }
 
 /* ----- LOGO ----- */
-.logo{
-    display: flex;                  /* controla alineación */
-    align-items: center;            /* centra verticalmente */
+.logo {
+  display: flex; /* controla alineación */
+  align-items: center; /* centra verticalmente */
 }
 
-.logo img{
-    height: 140px;                  /* tamaño del logo */
-    width: auto;                    /* mantiene proporción */
+.logo img {
+  height: 140px; /* tamaño del logo */
+  width: auto; /* mantiene proporción */
 }

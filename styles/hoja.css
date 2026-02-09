@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: sans-serif;
     margin: 0;
@@ -14,14 +17,24 @@ img{
     border-radius: 19px;
 }
 
-.header{
+.header{    /* contenedor del header */
     background-color: #11142f;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     margin: 0;
-    /* contenedor del header */
     color: white;
+    position: sticky;
+    top: 0;  
+    z-index: 1000;
+
+
+}
+
+.PaginaActiva {
+    text-decoration: underline;
+    text-decoration-color: #fdd72dd4; /* color del subrayado */
+    text-decoration-thickness: 3px; /* grosor */
 }
 /* ----- NAVBAR ----- */
 .nav{
@@ -30,6 +43,7 @@ img{
     align-items: center;            /* centra verticalmente */
     padding: 10px 40px; /* top y bottom | izq y der */
     margin: 0;
+    
 }
 
 /* items del menú */
@@ -66,3 +80,51 @@ img{
     height: 140px;                  /* tamaño del logo */
     width: auto;                    /* mantiene proporción */
 }
+
+/* ----- CUERPO ----- */
+h1{
+    color: #11142f;
+    width: 33%;
+}
+.Main{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.indice{
+    position: sticky;
+    top: 160px;   /* distancia desde arriba cuando se pega */
+    height: fit-content;
+}
+.lista_indice{
+    font-size: 1.6rem;
+    text-decoration: none; 
+    color: #11142f;
+    width: 300px;
+}
+.lista_indice a{
+    text-decoration: none;
+    color: #11142f;
+}
+.hoja_Vida{
+    border-left: #11142f solid 3px;
+    padding-left: 15px;
+    padding-right: 25px;   
+}
+.hoja_Vida{
+    background-color: #11142f37;
+}
+h2{
+    text-decoration: none;  
+    color: #11142f;
+}
+p{
+    color: #11142f;
+    font-size: 1.6rem;
+}
+
+.secciones_hoja{
+color: rgb(157, 0, 255);
+}
+
+

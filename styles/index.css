@@ -22,6 +22,9 @@ img{
     margin: 0;
     /* contenedor del header */
     color: white;
+        position: sticky;
+    top: 0;  
+    z-index: 1000;
 }
 /* ----- NAVBAR ----- */
 .nav{
@@ -48,6 +51,12 @@ img{
     padding: 10px; 
     text-align: center;
     transition: all 0.2s ease-in-out;
+}
+
+.PaginaActiva {
+    text-decoration: underline;
+    text-decoration-color: #fdd72dd4; /* color del subrayado */
+    text-decoration-thickness: 3px; /* grosor */
 }
 
 /* hover del menú */
