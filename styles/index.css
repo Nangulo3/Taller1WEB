@@ -198,34 +198,47 @@ img{
 }
 
 /* ----- FOOTER ----- */
-.footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 1.5rem;
-    border-top: 1px solid #ccc;
-    gap: 50px;
-    font-size: 1.1rem;
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.3rem;
+  border-top: 1px solid #ccc;
+  gap: 50px;
+  font-size: 1.1rem;
 
+  
 }
 
-.Instagram{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 6px;
+.Instagram {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 6px;
 }
-.logo_instagram{
-    display: inline-flex;
-    border-radius: 0%;
-    margin: 0;
+.logo_instagram {
+  display: inline-flex;
+  border-radius: 0%;
+  margin: 0;
 }
 
-.logo_instagram, image{
-    width: 35px;
-    height: 35px;
+.logo_instagram,
+image {
+  width: 35px;
+  height: 35px;
+}
+
+.footer p {
+  font-size: 1.2rem;
+}
+.logoTransparente{
+  height: 100px;
+}
+.logoTransparente img{
+  height: 130px;
+  object-fit: cover;
 }
 
 

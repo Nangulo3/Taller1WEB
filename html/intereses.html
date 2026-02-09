@@ -1,49 +1,107 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="../styles/intereses.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="../styles/intereses.css" />
+  </head>
+  <body>
     <header class="header">
-        
-        <ul class="nav">
-                <li class="logo">
-                    <img src="../Images/Logo.png" width="15%">
-                </li>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="datos.html">Datos</a></li>
-                <li><a href="hoja.html">Hoja de vida</a></li>
-                <li class="PaginaActiva"><a href="intereses.html">Intereses</a></li>
-
-        </ul>      
+      <ul class="nav">
+        <li class="logo">
+          <img src="../Images/Logo.png" width="15%" />
+        </li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="datos.html">Datos</a></li>
+        <li><a href="hoja.html">Hoja de vida</a></li>
+        <li class="PaginaActiva"><a href="intereses.html">Intereses</a></li>
+      </ul>
     </header>
+
+    <!-- Intereses  -->
+
     <main class="main">
-        <h1>Intereses</h1>
-        <section class="Pelicula Favorita">
-            <h2>Pelicula Favorita</h2>
-            <img src="" alt="Pelicula Favorita"> <!-- TODO: Poner el trailer de la pelicula favorita*/ -->
-        </section>  
-
-        <section class="Libro Favorito">
-            <h2>Libro Favorito</h2>
-            <img src="" alt="Libro Favorito"> <!-- TODO: Poner una imagen del libro favorito-->
+      <h1>Intereses</h1>
+      <!-- Pelicula Favorita -->
+      <div class="interes" id="Pelicula_Favorita">
+        <section class="Informacion_interes">
+          <h2>Pelicula Favorita: Intensamente</h2>
+          <p>
+            Para Roberth es su película favorita sin explicación lógica: la
+            historia le da igual, pero ese elefante rosado lo tiene atrapado de
+            una forma casi obsesiva. Sale en pantalla y todo cobra sentido.
+          </p>
         </section>
-
-        <section class="Deporte Favorito">
-            <h2>Deporte Favorito</h2>
-            <img src="" alt="Deporte Favorito"> <!-- TODO: Poner una imagen de boli-->
+        <section class="Recurso_interes">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/RRGieFJQ-HA?si=2cWg7P3PhZSvnPpT"
+            title="YouTube video player"
+            frameborder="0"
+            allow="
+              accelerometer;
+              autoplay;
+              clipboard-write;
+              encrypted-media;
+              gyroscope;
+              picture-in-picture;
+              web-share;
+            "
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          >
+          </iframe>
         </section>
+      </div>
+
+      <!-- Libro Favorito -->
+      <article class="interes Libro_Favorito">
+        <h2>Libro Favorito</h2>
+        <section class="Recurso_interes">
+          <img
+            id="libro1"
+            src="../Images/CalculoDeStewart.gif"
+            alt="Libro Favorito"
+          />
+          <img
+            id="libro2"
+            src="../Images/50Sombras.jfif"
+            alt="Libro Favorito"
+          />
+        </section>
+      </article>
+
+      <!-- Deporte Favorito -->
+      <article class="interes Deporte_Favorito">
+        <section class="Informacion_interes">
+          <h2>Deporte Favorito</h2>
+        </section>
+        <section class="Recurso_interes">
+          <img src="" alt="Deporte Favorito" />
+          <!-- TODO: Poner una imagen de boli-->
+        </section>
+      </article>
     </main>
+  </body>
 
-    
+  <!--Footer-->
 
-    
-
-    
-</body>
-
+  <footer class="footer">
+    <p>Todos los derechos reservados Roberth Mendez &copy; 2026</p>
+    <div class="logoTransparente">
+      <img src="../Images/logoTransparente.png" alt="Logo" />
+    </div>
+    <div class="Instagram">
+      <a
+        class="logo_instagram"
+        href="https://www.instagram.com/roberthsitooo?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+        target="_blank"
+      >
+        <img class="logo" src="../Images/logoInstagram.png" alt="Logo" />
+      </a>
+      <p>Síguelo en Instagram - @roberthsitooo</p>
+    </div>
+  </footer>
 </html>
