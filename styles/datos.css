@@ -83,11 +83,7 @@ img{
 .titulo{
     color: #11142f;
 }
-.titulos{
-    color: #11142f;
-    font-weight: bold;
-    font-size: 3rem;
-}
+
 
 
 .datos{
@@ -97,7 +93,11 @@ img{
     justify-content: center;
 }
 
-td, th{
+.datos{
+    font-size: 2.3rem;
+}
+
+td, th{ /*Bordes tabla*/
     border: 2px solid #11142f;
     padding: 10px;
     font-size: 2rem;
@@ -105,10 +105,26 @@ td, th{
     text-align: left;
 
 }
-
-.datos{
-    font-size: 2.3rem;
+.tabla{
+    display: flex;
 }
+
+td{
+    width: 450px;;
+}
+.Titulo_tabla{
+    background-color: #11142f;
+    color: white;   
+    text-align: center;
+}
+.tabla tr:nth-child(2n){
+    background-color: #02295faf;
+    color: white;
+}
+
+
+
+
 
 
 

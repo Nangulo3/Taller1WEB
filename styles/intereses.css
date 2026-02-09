@@ -75,3 +75,21 @@ img {
   height: 140px; /* tamaño del logo */
   width: auto; /* mantiene proporción */
 }
+
+
+/*-----Contenido-------*/
+
+h1{
+    text-align: center;
+    font-size: 4.5rem;
+    color: #11142f;
+}
+h2{
+    font-size: 2.5rem;
+}
+p{
+    font-size: 2rem;
+}
+.main{
+    margin: 45px;
+}
