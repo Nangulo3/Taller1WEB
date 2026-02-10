@@ -98,6 +98,7 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .Informacion_interes,
@@ -109,11 +110,28 @@ p {
   flex-direction: row;
   justify-content: center;
 }
-#libro2 {
+.Libro_Favorito .Recurso_interes img{
+  overflow: hidden;
+  object-fit: cover;
+  width: 300px;
 }
 .Recurso_interes iframe {
-  width: 61.5%;
+  width: 600px;
   border-radius: 5%;
+}
+
+.Deporte_Favorito .Recurso_interes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.Deporte_Favorito .Recurso_interes img{
+  overflow: hidden;
+  object-fit: cover;
+  width: 150px;
+  height: 300px;
 }
 
 /* ----- FOOTER ----- */
