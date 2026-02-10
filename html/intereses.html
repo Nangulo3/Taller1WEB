@@ -1,113 +1,102 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intereses</title>
+    <link rel="stylesheet" href="../styles/index.css" />
+    <link rel="stylesheet" href="../styles/intereses.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <link rel="stylesheet" href="../styles/intereses.css" />
-</head>
+  <body>
+    <header class="header">
+      <ul class="nav">
+        <li class="logo">
+          <img src="../Images/Logo.png" />
+        </li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="datos.html">Datos</a></li>
+        <li><a href="hoja.html">Hoja de vida</a></li>
+        <li class="PaginaActiva"><a href="intereses.html">Intereses</a></li>
+      </ul>
+    </header>
 
-<body>
-  <header class="header">
-    <ul class="nav">
-      <li class="logo">
-        <img src="../Images/Logo.png" width="15%" />
-      </li>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="datos.html">Datos</a></li>
-      <li><a href="hoja.html">Hoja de vida</a></li>
-      <li class="PaginaActiva"><a href="intereses.html">Intereses</a></li>
-    </ul>
-  </header>
+    <main class="main">
+      <h1>Intereses</h1>
 
-  <!-- Intereses  -->
-
-  <main class="main">
-    <h1>Intereses</h1>
-    <!-- Pelicula Favorita -->
-    <div class="interes" id="Pelicula_Favorita">
-      <section class="Informacion_interes">
-        <h2>Pelicula Favorita: Intensamente</h2>
-        <p>
-          Para Roberth es su película favorita sin explicación lógica: la
-          historia le da igual, pero ese elefante rosado lo tiene atrapado de
-          una forma casi obsesiva. Sale en pantalla y todo cobra sentido.
-        </p>
-      </section>
-      <section class="Recurso_interes">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/RRGieFJQ-HA?si=2cWg7P3PhZSvnPpT"
-          title="YouTube video player" frameborder="0" allow="
-              accelerometer;
-              autoplay;
-              clipboard-write;
-              encrypted-media;
-              gyroscope;
-              picture-in-picture;
-              web-share;
-            " referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-        </iframe>
-      </section>
-    </div>
-
-    <!-- Libro Favorito -->
-    <article class="interes Libro_Favorito">
-      <div class="Informacion_interes">
-      <h2>Libro Favorito</h2>
-      <p>
-        Roberth tiene dos libros favoritos, el primero es "Cálculo de
-        Stewart", un libro de matemáticas que le ha ayudado a entender
-        conceptos complejos y a desarrollar su pensamiento lógico. El
-        segundo es "50 Sombras de Grey", una novela romántica que le ha
-        cautivado por su trama intrigante y sus personajes complejos.
-      </p>
+      <div class="interes">
+        <section class="Informacion_interes">
+          <h2>Pelicula Favorita: Intensamente</h2>
+          <p>
+            Para Roberth es su película favorita sin explicación lógica: la
+            historia le da igual, pero ese elefante rosado lo tiene atrapado de
+            una forma casi obsesiva.
+          </p>
+        </section>
+        <section class="Recurso_interes">
+          <iframe
+            src="https://www.youtube.com/embed/RRGieFJQ-HA"
+            allowfullscreen
+          ></iframe>
+        </section>
       </div>
 
-      <section class="Recurso_interes">
-        <img id="libro1" src="../Images/CalculoDeStewart.gif" alt="Libro Favorito" />
-        <img id="libro2" src="../Images/50Sombras.jfif" alt="Libro Favorito" />
-      </section>
-    </article>
+      <div class="interes">
+        <section class="Informacion_interes">
+          <h2>Libro Favorito</h2>
+          <p>
+            Roberth tiene dos libros favoritos, el primero es "Cálculo de
+            Stewart", un libro de matemáticas que le ha ayudado a entender
+            conceptos complejos y a desarrollar su pensamiento lógico. El
+            segundo es "50 Sombras de Grey", una novela romántica que le ha
+            cautivado por su trama intrigante y sus personajes complejos.
+          </p>
+        </section>
 
+        <section class="Recurso_interes libros">
+          <img id="libro1" src="../Images/CalculoDeStewart.gif" />
+          <img id="libro2" src="../Images/50Sombras.jfif" />
+        </section>
+      </div>
 
-    <!-- Deporte Favorito -->
-    <article class="interes Deporte_Favorito">
-      <section class="Informacion_interes">
-        <h2>Deporte Favorito</h2>
-        <p>
-          El deporte favorito de Roberth es el fútbol, un deporte que le apasiona
-          desde pequeño. Le encanta jugarlo con sus amigos y seguir los partidos
-          de su equipo favorito, el Real Madrid. El fútbol le brinda emoción,
-          camaradería y una forma de mantenerse activo.
-        </p>
+      <div class="interes">
+        <section class="Informacion_interes">
+          <h2>Deporte Favorito</h2>
+          <p>
+            El deporte favorito de Roberth es el fútbol. Le encanta jugarlo con
+            sus amigos y seguir los partidos de su equipo favorito.
+          </p>
+        </section>
 
-      </section>
-      <section class="Recurso_interes">
-        <img src="../Images/boli1.jpg" alt="Deporte Favorito" />
-        <img src="../Images/boli2.jpg" alt="Deporte Favorito" />
-        <img src="../Images/boli3.jpg" alt="Deporte Favorito" />
-        <img src="../Images/boli4.jpg" alt="Deporte Favorito" />
-        <!-- TODO: Poner una imagen de boli-->
-      </section>
-    </article>
-  </main>
-</body>
+        <section class="Recurso_interes">
+          <div class="carrusel">
+            <img src="../Images/RB1.png" class="slide active" />
+            <img src="../Images/RB2.png" class="slide" />
+            <img src="../Images/RB3.png" class="slide" />
+            <img src="../Images/RB4.png" class="slide" />
+            <img src="../Images/RB5.png" class="slide" />
+          </div>
+        </section>
+      </div>
+    </main>
 
-<!--Footer-->
+    <!--Footer-->
 
-<footer class="footer">
-  <p>Todos los derechos reservados Roberth Mendez &copy; 2026</p>
-  <div class="logoTransparente">
-    <img src="../Images/logoTransparente.png" alt="Logo" />
-  </div>
-  <div class="Instagram">
-    <a class="logo_instagram"
-      href="https://www.instagram.com/roberthsitooo?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
-      target="_blank">
-      <img class="logo" src="../Images/logoInstagram.png" alt="Logo" />
-    </a>
-    <p>Síguelo en Instagram - @roberthsitooo</p>
-  </div>
-</footer>
-
+    <footer class="footer">
+      <p>Todos los derechos reservados Roberth Mendez &copy; 2026</p>
+      <div class="logoTransparente">
+        <img src="../Images/logoTransparente2.png" alt="Logo" />
+      </div>
+      <div class="Instagram">
+        <a
+          class="logo_instagram"
+          href="https://www.instagram.com/roberthsitooo?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+          target="_blank"
+        >
+          <img class="logo" src="../Images/logoInstagram.png" alt="Logo" />
+        </a>
+        <p>Síguelo en Instagram<br />@roberthsitooo</p>
+      </div>
+    </footer>
+  </body>
 </html>

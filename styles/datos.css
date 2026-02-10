@@ -1,114 +1,39 @@
-body{
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
+/*-----------DATOS-------------------------------------*/
+.main{
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
-
-.titulo{
-    text-align: center;
-    font-size: 300%;
-    margin:45px;
-}
-
-img{
-    border-radius: 19px;
-}
-
-.header{
-    background-color: #11142f;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin: 0;
-    /* contenedor del header */
-    color: white;
-        position: sticky;
-    top: 0;  
-    z-index: 1000;
-}
-
-.PaginaActiva {
-    text-decoration: underline;
-    text-decoration-color: #fdd72dd4; /* color del subrayado */
-    text-decoration-thickness: 3px; /* grosor */
-}
-/* ----- NAVBAR ----- */
-.nav{
-    display: flex;                  /* layout horizontal */
-    justify-content: space-between; /* separa logo y menú */
-    align-items: center;            /* centra verticalmente */
-    padding: 10px 40px; /* top y bottom | izq y der */
-    margin: 0;
-}
-
-/* items del menú */
-.nav li{
-    list-style: none;               /* quita viñetas */
-    display: flex;          
-        /* permite alinear contenido */
-    border-radius: 10px;
-}
-
-/* enlaces del menú */
-.nav li a{
-    color: white;
-    text-decoration: none;
-    font-size: 2rem;
-    padding: 10px; 
-    text-align: center;
-    transition: all 0.2s ease-in-out;
-}
-
-/* hover del menú */
-.nav li a:hover{
-    font-size: 2.2rem;
-    transition: all 0.2s ease-in-out;
-}
-
-/* ----- LOGO ----- */
-.logo{
-    display: flex;                  /* controla alineación */
-    align-items: center;            /* centra verticalmente */
-}
-
-.logo img{
-    height: 140px;                  /* tamaño del logo */
-    width: auto;                    /* mantiene proporción */
-}
-
-
-
-/*-----------DATOS---------------*/
-
 .titulo{
     color: #11142f;
 }
-
-
 
 .datos{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 900px;
+    margin: 45px;
 
 }
 
 .datos{
-    font-size: 2.3rem;
+    font-size: 1.6rem;
 }
 
 td, th{ /*Bordes tabla*/
     border: 2px solid #11142f;
     padding: 10px;
-    font-size: 2rem;
-    padding : 10px;
+    font-size: 1.4rem;
+    padding : 15px;
     text-align: left;
-
 }
 .tabla{
-    display: flex;
+    border-collapse: collapse;
+    width: 60%;
+    overflow: hidden;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
 }
 
 td{
@@ -118,59 +43,14 @@ td{
     background-color: #11142f;
     color: white;   
     text-align: center;
+    font-size: 1.8rem;
 }
 .tabla tr:nth-child(2n){
     background-color: #02295faf;
     color: white;
 }
 
-
-
-
-
-
-
-
-/* ----- FOOTER ----- */
-.footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1.3rem;
-  border-top: 1px solid #ccc;
-  gap: 50px;
-  font-size: 1.1rem;
-
-  
-}
-
-.Instagram {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 6px;
-}
-.logo_instagram {
-  display: inline-flex;
-  border-radius: 0%;
-  margin: 0;
-}
-
-.logo_instagram,
-image {
-  width: 35px;
-  height: 35px;
-}
-
-.footer p {
-  font-size: 1.2rem;
-}
-.logoTransparente{
-  height: 100px;
-}
-.logoTransparente img{
-  height: 130px;
-  object-fit: cover;
+.logos-tabla{
+    justify-content: center;
+    align-items: center;
 }

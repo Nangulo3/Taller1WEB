@@ -1,179 +1,67 @@
-body {
-  font-family: sans-serif;
-  margin: 0;
-  padding: 0;
+.main {
+  margin: 60px auto;
+  max-width: 80%;
 }
-
-.titulo {
-  text-align: center;
-  font-size: 300%;
-  margin: 45px;
-}
-
-img {
-  border-radius: 19px;
-  max-width: 1100px;
-}
-
-.header {
-  background-color: #11142f;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  margin: 0;
-  /* contenedor del header */
-  color: white;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-}
-
-.PaginaActiva {
-  text-decoration: underline;
-  text-decoration-color: #fdd72dd4; /* color del subrayado */
-  text-decoration-thickness: 3px; /* grosor */
-}
-/* ----- NAVBAR ----- */
-.nav {
-  display: flex; /* layout horizontal */
-  justify-content: space-between; /* separa logo y menú */
-  align-items: center; /* centra verticalmente */
-  padding: 10px 40px; /* top y bottom | izq y der */
-  margin: 0;
-}
-
-/* items del menú */
-.nav li {
-  list-style: none; /* quita viñetas */
-  display: flex;
-  /* permite alinear contenido */
-  border-radius: 10px;
-}
-
-/* enlaces del menú */
-.nav li a {
-  color: white;
-  text-decoration: none;
-  font-size: 2rem;
-  padding: 10px;
-  text-align: center;
-  transition: all 0.2s ease-in-out;
-}
-
-/* hover del menú */
-.nav li a:hover {
-  font-size: 2.2rem;
-  transition: all 0.2s ease-in-out;
-}
-
-/* ----- LOGO ----- */
-.logo {
-  display: flex; /* controla alineación */
-  align-items: center; /* centra verticalmente */
-}
-
-.logo img {
-  height: 140px; /* tamaño del logo */
-  width: auto; /* mantiene proporción */
-}
-
-/*-----Contenido-------*/
 
 h1 {
   text-align: center;
   font-size: 4.5rem;
   color: #11142f;
-}
-h2 {
-  font-size: 2.5rem;
-}
-p {
-  font-size: 1.6rem;
-}
-.main {
-  margin: 45px;
+  margin-bottom: 60px;
 }
 
 .interes {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-bottom: 50px;
+  gap: 40px;
+  margin-bottom: 60px;
+  padding: 40px;
+  border-radius: 20px;
+  background-color: #cddfff;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 }
 
 .Informacion_interes,
 .Recurso_interes {
   width: 50%;
 }
+
 .Recurso_interes {
   display: flex;
-  flex-direction: row;
   justify-content: center;
+  align-items: center;
 }
-.Libro_Favorito .Recurso_interes img{
-  overflow: hidden;
-  object-fit: cover;
-  width: 300px;
-}
+
 .Recurso_interes iframe {
-  width: 600px;
-  border-radius: 5%;
+  width: 100%;
+  width: 580px;
+  height: 330px;
+  border-radius: 15px;
 }
 
-.Deporte_Favorito .Recurso_interes{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+.libros img {
+  height: 350px;
+  width: auto;
+  margin-right: 20px;
+  object-fit: cover;
 }
 
-.Deporte_Favorito .Recurso_interes img{
+.carrusel {
+  position: relative;
+  width: 85%;
+  height: 350px;
   overflow: hidden;
+  border-radius: 20px;
+}
+
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-  width: 150px;
-  height: 300px;
+  opacity: 0;
+  transition: opacity 0.8s ease-in-out;
 }
 
-/* ----- FOOTER ----- */
-.footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1.3rem;
-  border-top: 1px solid #ccc;
-  gap: 50px;
-  font-size: 1.1rem;
-
-  
-}
-
-.Instagram {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 6px;
-}
-.logo_instagram {
-  display: inline-flex;
-  border-radius: 0%;
-  margin: 0;
-}
-
-.logo_instagram,
-image {
-  width: 35px;
-  height: 35px;
-}
-
-.footer p {
-  font-size: 1.2rem;
-}
-.logoTransparente{
-  height: 100px;
-}
-.logoTransparente img{
-  height: 130px;
-  object-fit: cover;
+.slide.active {
+  opacity: 1;
 }
