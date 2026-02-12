@@ -63,3 +63,16 @@ h2 {
 .secciones-hoja {
   color: #4657e5;
 }
+
+.secciones-hoja li section {
+  border: 3px solid #1e3a8a; /* Borde continuo */
+  border-radius: 12px;
+  padding: 20px;
+  
+  /* Fondo en gradiente */
+  background: linear-gradient(
+    135deg,
+    #e0f2fe,
+    #bfdbfe
+  );
+}
