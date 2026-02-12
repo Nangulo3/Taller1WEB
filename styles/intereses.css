@@ -65,3 +65,14 @@ h1 {
 .slide.active {
   opacity: 1;
 }
+
+.carrusel .slide{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.carrusel{
+  position: relative;
+}
+

@@ -39,7 +39,7 @@ td, th{ /*Bordes tabla*/
 td{
     width: 450px;;
 }
-.Titulo_tabla{
+.titulo-tabla{
     background-color: #11142f;
     color: white;   
     text-align: center;

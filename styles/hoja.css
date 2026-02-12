@@ -1,15 +1,15 @@
 html {
   scroll-behavior: smooth; /* suaviza el scroll para los enlaces del indice */
 }
-[id]{
+[id] {
   scroll-margin-top: 175px;
-}/* -----  -----------------------CUERPO----------------------------------*/
+} /* -----  -----------------------CUERPO----------------------------------*/
 h1 {
   margin-left: 40px;
   color: #11142f;
   font-size: 2rem;
 }
-.Main {
+.main {
   display: flex;
   flex-direction: row;
   padding: 10px;
@@ -20,17 +20,17 @@ h1 {
   top: 160px; /* distancia desde arriba cuando se pega */
   height: fit-content;
 }
-.indice h1{
+.indice h1 {
   margin-left: 85px;
 }
-.lista_indice {
+.lista-indice {
   font-size: 1.5rem;
   text-decoration: none;
   color: #11142f;
   width: 300px;
   margin-left: 45px;
 }
-.lista_indice a {
+.lista-indice a {
   text-decoration: none;
   color: #11142f;
   line-height: 1.7;
@@ -38,12 +38,12 @@ h1 {
 
 /* ----- HOJA DE VIDA ----- */
 
-.hoja_Vida {
+.hoja-vida{
   border-left: #11142f solid 3px;
   padding-left: 15px;
   padding-right: 25px;
 }
-.hoja_Vida {
+.hoja-vida {
   background-color: #d3e2fa;
 }
 h2 {
@@ -52,7 +52,7 @@ h2 {
   margin-top: 50px;
   margin-bottom: 10px;
 }
-.hoja_Vida p {
+.hoja-vida p {
   color: #11142f;
   font-size: 1.5rem;
   margin-right: 20%;
@@ -60,6 +60,6 @@ h2 {
   line-height: 1.7;
 }
 
-.secciones_hoja {
+.secciones-hoja {
   color: #4657e5;
 }
